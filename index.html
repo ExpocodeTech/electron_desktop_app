@@ -7,7 +7,13 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>You are running electron version: <br> 
+            <span id=version></span>
+        </h1>
+        <input type="text" name="txtName" value="">
     
+        <script>
+            require('./renderer.js');
+        </script>
     </body>
 </html>
